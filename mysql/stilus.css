@@ -1,0 +1,23 @@
+body
+{
+	font-family: Sans-serif;
+}
+
+table
+{
+	width: 50%;
+}
+
+table th
+{
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	background: #555555;
+	color: white;
+}
+
+table td
+{
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}

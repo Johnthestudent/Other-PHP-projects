@@ -1,0 +1,51 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Sans-serif;
+}
+
+.beiro_doboz
+{
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	min-height: 70px;
+}
+
+.bejegyzesek_doboz
+{
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	min-height: 400px;
+	margin-top: 10px;
+}
+
+.egybejegyzes_doboz
+{
+	border: 1px solid #CCCCCC;
+	margin: 10px;
+	min-height: 50px;
+}
+
+.egybejegyzes_fejlec
+{
+	display: flex;
+	background: #777777;
+	color: white;
+	justify-content: space-between;
+}
+
+.egybejegyzes_cim , .egybejegyzes_datum , .egybejegyzes_tartalom
+{
+	padding: 10px;	
+}
+
+.urlapmezo
+{
+	width: 60%;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	resize: vertical;	/*csak függőlegesen képes méretezni*/
+}
