@@ -1,0 +1,32 @@
+/*style of the body*/
+body
+{
+	background: black;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*style of some objects*/
+.csillag, .urhajo, .robbanas
+{
+	position: absolute;
+}
+
+/*style of the player ship*/
+.bazis
+{
+	height: 70px;
+	left: 50%;
+	position: fixed;
+	bottom: 0px;
+	z-index: 500;
+}
+
+/*style of the projectile object*/
+.lovedek
+{
+	position: absolute;
+	width: 3px;
+	height: 10px;
+	background: white;
+}
